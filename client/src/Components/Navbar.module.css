@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50PX;
+    padding-right: 50px;
+    background-color: #113f67;
+    color: #e7eaf6;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    max-height: 80px;
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+
+    width: 500px;
+}
+
+.searchBar {
+    padding-left: 50px;
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: large;
+   
+    transition: border 0.3s ;
+}
+
+.searchBar:focus {
+   outline: none;
+    border: skyblue 2px solid;
+}
+
+.searchIcon {
+    position: relative;
+    left: 40px;
+    color: gray;
+    font-size: larger;
+}
