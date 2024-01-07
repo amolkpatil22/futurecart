@@ -1,12 +1,18 @@
+.parent {
+    background-color: #113f67;
+
+}
+
 .main {
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
     align-items: center;
     justify-content: space-between;
-    padding-left: 50PX;
-    padding-right: 50px;
-    background-color: #113f67;
     color: #e7eaf6;
+    box-sizing: border-box;
+    font-size: large;
 }
 
 .logo {
@@ -18,7 +24,7 @@
 .searchContainer {
     display: flex;
     align-items: center;
-
+    min-width: 250px;
     width: 500px;
 }
 
@@ -28,12 +34,12 @@
     height: 50px;
     border-radius: 30px;
     font-size: large;
-   
-    transition: border 0.3s ;
+
+    transition: border 0.3s;
 }
 
 .searchBar:focus {
-   outline: none;
+    outline: none;
     border: skyblue 2px solid;
 }
 
